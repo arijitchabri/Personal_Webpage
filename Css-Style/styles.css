@@ -1,0 +1,108 @@
+    body{
+        margin: 0em;
+        font-family: 'Glory', sans-serif;
+        text-align: center;
+        background-color:aliceblue;
+    }
+    h1{
+        margin: 0px;
+        font-family: 'Niconne', cursive;
+        font-size: 4.5rem;
+    }
+    .top_container{
+        
+        text-align: center;
+        font: Century;
+        padding-top: 150px;
+    }
+
+    #upper_cloud{
+        position: relative;
+        margin-left: 500px;
+    }
+    #down_cloud{
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    h2{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: cornflowerblue;
+        font-size: 1.7em;
+    }
+    hr{
+        margin: 2em auto;
+        border-color: cadetblue;
+        border-style: dotted;
+        border: 1,0,0,0;
+        width: 10%;
+        border-width: .3em 0px 0px;
+        clear: both;
+    }
+
+    .bottom_div, .mid_div{
+        border: 10%;
+        margin: auto;
+        width: 50%;
+        
+
+    }
+    #a_newbie{
+        margin-top:32px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 1.7em;
+    }
+    p{
+        line-height: 2;
+    }
+    .images{
+        float: left;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+    .mid_div p, .bottom_div p{
+        text-align: left;
+    }    
+    .menu{
+        position: fixed;
+        right: 10px;
+        top: 20px;
+        font-size: 1.1em;
+    }
+    .menu a{
+        margin: 5px;
+        text-decoration: none;
+        color: rgb(95, 49, 49);
+    }
+    .contacts{
+        height: 20px;
+        width: 20px
+    }
+    .works{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background: rgb(231, 233, 204);
+        padding: .4em;
+        font-family: 'Glory', sans-serif;
+        display: block;        
+    }
+    .Work_contains{
+        position: absolute;
+        display: none;
+        text-align: left;
+
+    }
+    .works:hover .Work_contains{
+        display:block;
+        padding-top: 10px;
+        width: 120px;
+        text-decoration: none;
+    }
+        
