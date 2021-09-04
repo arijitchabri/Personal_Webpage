@@ -67,7 +67,7 @@
         margin-right: 30px;
     }
     .mid_div p, .bottom_div p{
-        text-align: left;
+        text-align: justify;
     }    
     .menu{
         position: fixed;
